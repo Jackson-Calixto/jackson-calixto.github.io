@@ -1,0 +1,7 @@
+Coloque aqui o PDF do seu curriculo com o nome:
+
+  Resume-Jackson-Calixto-2025-02.pdf
+
+(O botao "Baixar curriculo" no site aponta para este ficheiro.)
+
+Se usar outro nome, atualize o href em index.html (procure por assets/).

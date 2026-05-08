@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Jackson Calixto — desenvolvedor full stack. Portfólio, GitHub e experiência." data-i18n-attr="content" data-i18n-key="meta.description" />
+  <title>Jackson Calixto | Portf&oacute;lio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conte&uacute;do</a>
+  <header class="site-header">
+    <div class="inner header-row">
+      <a class="logo" href="#conteudo" aria-label="In&iacute;cio">JC</a>
+
+      <nav id="menu-principal" class="nav" aria-label="Principal">
+        <a href="#projetos" data-nav data-i18n="nav.projects">Projetos</a>
+        <a href="#skills2" data-nav data-i18n="nav.skills">Skills</a>
+        <a href="#certificacoes" data-nav data-i18n="nav.certs">Certificações</a>
+        <a href="#sobre" data-nav data-i18n="nav.about">Sobre</a>
+        <a href="#contato" data-nav data-i18n="nav.contact">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Idioma">
+          <button class="lang-btn" type="button" data-lang="pt-BR" aria-pressed="true" aria-label="Português (Brasil)">
+            <span class="flag" aria-hidden="true">
+              <svg viewBox="0 0 18 12" role="presentation" focusable="false">
+                <rect width="18" height="12" rx="1.5" fill="#009B3A"></rect>
+                <polygon points="9,1 16,6 9,11 2,6" fill="#FFDF00"></polygon>
+                <circle cx="9" cy="6" r="2.6" fill="#002776"></circle>
+              </svg>
+            </span>
+          </button>
+          <button class="lang-btn" type="button" data-lang="en" aria-label="English">
+            <span class="flag" aria-hidden="true">
+              <svg viewBox="0 0 18 12" role="presentation" focusable="false">
+                <rect width="18" height="12" rx="1.5" fill="#fff"></rect>
+                <g fill="#B22234">
+                  <rect y="0" width="18" height="1"></rect>
+                  <rect y="2" width="18" height="1"></rect>
+                  <rect y="4" width="18" height="1"></rect>
+                  <rect y="6" width="18" height="1"></rect>
+                  <rect y="8" width="18" height="1"></rect>
+                  <rect y="10" width="18" height="1"></rect>
+                </g>
+                <rect width="8" height="6.2" rx="1.2" fill="#3C3B6E"></rect>
+              </svg>
+            </span>
+          </button>
+          <button class="lang-btn" type="button" data-lang="es" aria-label="Español">
+            <span class="flag" aria-hidden="true">
+              <svg viewBox="0 0 18 12" role="presentation" focusable="false">
+                <rect width="18" height="12" rx="1.5" fill="#AA151B"></rect>
+                <rect y="3" width="18" height="6" fill="#F1BF00"></rect>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <a class="chip" href="https://github.com/Jackson-Calixto" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="chip chip-primary" href="https://www.linkedin.com/in/jackson-calixto/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero hero2">
+      <div class="inner hero2-grid">
+        <div class="hero2-text">
+          <p class="eyebrow2" data-i18n="hero.location">Joinville, SC &#183; Brasil</p>
+          <h1 class="hero2-title"><span data-i18n="hero.hi">Oi, eu sou o</span> <span class="grad">Jackson Calixto</span></h1>
+          <p class="hero2-subtitle" data-i18n="hero.subtitle">Software Developer &#183; .NET / Angular &#183; Observabilidade (OTel / Datadog)</p>
+
+          <p class="hero2-desc" data-i18n="hero.desc">
+            Desenvolvo e sustento solu&ccedil;&otilde;es corporativas com foco em APIs, integra&ccedil;&otilde;es e qualidade.
+            No meu GitHub eu publico laborat&oacute;rios e projetos de estudo (Clean Architecture, microservi&ccedil;os, Docker, automa&ccedil;&atilde;o com Playwright).
+          </p>
+
+          <div class="pill-row" aria-label="Destaques">
+            <span class="pill">.NET</span>
+            <span class="pill">C#</span>
+            <span class="pill">Angular</span>
+            <span class="pill">SQL Server</span>
+            <span class="pill">Docker</span>
+            <span class="pill">Azure DevOps</span>
+            <span class="pill">OpenTelemetry</span>
+          </div>
+
+          <div class="hero2-cta">
+            <a class="btn2 btn2-primary" href="#projetos" data-i18n="hero.ctaWork">Ver meus projetos</a>
+            <a class="btn2 btn2-ghost" href="assets/Resume-Jackson-Calixto-2025-02.pdf" target="_blank" rel="noopener" data-i18n="hero.ctaResume">Baixar curr&iacute;culo</a>
+          </div>
+        </div>
+
+        <div class="hero2-side" aria-hidden="true">
+          <div class="hero2-card">
+            <div class="badge-row">
+              <div class="badge"><span class="badge-icon">🏆</span><span data-i18n="hero.badgeAwards">Reconhecimentos</span></div>
+              <div class="badge"><span class="badge-icon">⭐</span><span data-i18n="hero.badgeCerts">Certifica&ccedil;&otilde;es</span></div>
+            </div>
+
+            <div class="stats-grid">
+              <div class="stat">
+                <div class="stat-num">12+</div>
+                <div class="stat-label" data-i18n="hero.statYears">anos na GM</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">27</div>
+                <div class="stat-label" data-i18n="hero.statRepos">repos p&uacute;blicos</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">7+</div>
+                <div class="stat-label" data-i18n="hero.statCerts">certifica&ccedil;&otilde;es</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">3</div>
+                <div class="stat-label" data-i18n="hero.statLangs">idiomas</div>
+              </div>
+            </div>
+
+            <div class="mini-links">
+              <a href="https://github.com/Jackson-Calixto" target="_blank" rel="noopener noreferrer">github.com/Jackson-Calixto</a>
+              <a href="https://www.linkedin.com/in/jackson-calixto/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jackson-calixto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section section-alt">
+      <div class="inner">
+        <div class="section-head">
+          <div>
+            <h2 data-i18n="projects.title">Projetos em destaque</h2>
+            <p class="section-intro" data-i18n="projects.subtitle">Sele&ccedil;&atilde;o de reposit&oacute;rios p&uacute;blicos que representam a minha stack atual.</p>
+          </div>
+          <a class="link-quiet" href="https://github.com/Jackson-Calixto?tab=repositories" target="_blank" rel="noopener noreferrer" data-i18n="projects.viewAll">Ver todos no GitHub &rarr;</a>
+        </div>
+
+        <div class="featured-grid">
+          <article class="project-card" data-project>
+            <div class="project-top">
+              <span class="tag">.NET / C#</span>
+              <span class="tag tag-done">P&uacute;blico</span>
+            </div>
+            <h3>.NET Core &amp; Clean Architecture</h3>
+            <p>Laborat&oacute;rio de projetos .NET Core seguindo princ&iacute;pios de Clean Architecture.</p>
+            <div class="tech-row">
+              <span class="tech">C#</span><span class="tech">ASP.NET Core</span><span class="tech">Arquitetura</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn-mini" href="https://github.com/Jackson-Calixto/Criando-projetos-.NET-Core-segundo-a-Clean-Architecture" target="_blank" rel="noopener noreferrer">Ver reposit&oacute;rio</a>
+              <button class="btn-mini btn-mini-ghost" type="button" data-open-modal data-title=".NET Core &amp; Clean Architecture" data-desc="Organiza&ccedil;&atilde;o em camadas, separa&ccedil;&atilde;o de responsabilidades e boas pr&aacute;ticas em projetos .NET." data-tech="C#, ASP.NET Core, Arquitetura" data-link="https://github.com/Jackson-Calixto/Criando-projetos-.NET-Core-segundo-a-Clean-Architecture">Detalhes</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-project>
+            <div class="project-top">
+              <span class="tag">Full Stack</span>
+              <span class="tag tag-done">P&uacute;blico</span>
+            </div>
+            <h3>Web API + Angular + EF Core</h3>
+            <p>Angular, ASP.NET Core Web API, Entity Framework Core e Identity.</p>
+            <div class="tech-row">
+              <span class="tech">Angular</span><span class="tech">ASP.NET Core</span><span class="tech">EF Core</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn-mini" href="https://github.com/Jackson-Calixto/Full-Stack-.NET-Web-API-Angular-EFCore-2022" target="_blank" rel="noopener noreferrer">Ver reposit&oacute;rio</a>
+              <button class="btn-mini btn-mini-ghost" type="button" data-open-modal data-title="Web API + Angular + EF Core" data-desc="Exemplo de aplica&ccedil;&atilde;o full stack com autentica&ccedil;&atilde;o e persist&ecirc;ncia." data-tech="C#, Angular, EF Core, Identity" data-link="https://github.com/Jackson-Calixto/Full-Stack-.NET-Web-API-Angular-EFCore-2022">Detalhes</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-project>
+            <div class="project-top">
+              <span class="tag">Microservi&ccedil;os</span>
+              <span class="tag tag-done">P&uacute;blico</span>
+            </div>
+            <h3>Microservices (Spring + Docker)</h3>
+            <p>Microservi&ccedil;os com Spring Cloud / Boot e Docker (laborat&oacute;rios).</p>
+            <div class="tech-row">
+              <span class="tech">Java</span><span class="tech">Spring Boot</span><span class="tech">Docker</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn-mini" href="https://github.com/Jackson-Calixto/Microservices" target="_blank" rel="noopener noreferrer">Ver reposit&oacute;rio</a>
+              <button class="btn-mini btn-mini-ghost" type="button" data-open-modal data-title="Microservices (Spring + Docker)" data-desc="Estudos de arquitetura, configura&ccedil;&atilde;o e execu&ccedil;&atilde;o de servi&ccedil;os." data-tech="Java, Spring Cloud, Spring Boot, Docker" data-link="https://github.com/Jackson-Calixto/Microservices">Detalhes</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-project>
+            <div class="project-top">
+              <span class="tag">Testes</span>
+              <span class="tag tag-done">P&uacute;blico</span>
+            </div>
+            <h3>Playwright + Java</h3>
+            <p>Framework de automa&ccedil;&atilde;o de testes end-to-end.</p>
+            <div class="tech-row">
+              <span class="tech">Playwright</span><span class="tech">Java</span><span class="tech">E2E</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn-mini" href="https://github.com/Jackson-Calixto/Automation-Framework-with-Playwright-and-Java" target="_blank" rel="noopener noreferrer">Ver reposit&oacute;rio</a>
+              <button class="btn-mini btn-mini-ghost" type="button" data-open-modal data-title="Playwright + Java" data-desc="Estrutura para testes automatizados e boas pr&aacute;ticas de execu&ccedil;&atilde;o." data-tech="Playwright, Java" data-link="https://github.com/Jackson-Calixto/Automation-Framework-with-Playwright-and-Java">Detalhes</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills2" class="section">
+      <div class="inner">
+        <div class="section-head">
+          <div>
+            <h2>Skills &amp; tecnologias</h2>
+            <p class="section-intro">Stack principal baseada no meu hist&oacute;rico profissional e reposit&oacute;rios p&uacute;blicos.</p>
+          </div>
+        </div>
+
+        <div class="skill-groups">
+          <article class="skill-group">
+            <h3>Front-end</h3>
+            <div class="skill-item"><span>Angular</span><span class="skill-meta">7y</span></div>
+            <div class="skill-item"><span>TypeScript</span><span class="skill-meta">7y</span></div>
+            <div class="skill-item"><span>HTML/CSS</span><span class="skill-meta">7y+</span></div>
+          </article>
+
+          <article class="skill-group">
+            <h3>Back-end</h3>
+            <div class="skill-item"><span>.NET / C#</span><span class="skill-meta">10y+</span></div>
+            <div class="skill-item"><span>APIs REST</span><span class="skill-meta">10y+</span></div>
+            <div class="skill-item"><span>Java (Spring)</span><span class="skill-meta">3y</span></div>
+          </article>
+
+          <article class="skill-group">
+            <h3>Dados</h3>
+            <div class="skill-item"><span>SQL Server</span><span class="skill-meta">8y+</span></div>
+            <div class="skill-item"><span>EF Core / Dapper</span><span class="skill-meta">6y+</span></div>
+            <div class="skill-item"><span>SQLite</span><span class="skill-meta">3y</span></div>
+          </article>
+
+          <article class="skill-group">
+            <h3>DevOps &amp; Observabilidade</h3>
+            <div class="skill-item"><span>Docker</span><span class="skill-meta">4y+</span></div>
+            <div class="skill-item"><span>Azure DevOps</span><span class="skill-meta">6y+</span></div>
+            <div class="skill-item"><span>OpenTelemetry / Datadog</span><span class="skill-meta">2y+</span></div>
+          </article>
+        </div>
+
+        <div class="complementary">
+          <h3>Tecnologias complementares</h3>
+          <div class="pill-row">
+            <span class="pill">PrimeNG</span>
+            <span class="pill">Kendo UI</span>
+            <span class="pill">Tailwind CSS</span>
+            <span class="pill">NGINX</span>
+            <span class="pill">Kubernetes</span>
+            <span class="pill">Helm</span>
+            <span class="pill">Terraform</span>
+            <span class="pill">Playwright</span>
+            <span class="pill">Python</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section section-alt">
+      <div class="inner narrow">
+        <h2>Sobre</h2>
+        <p>
+          Sou <strong>Software Developer na General Motors</strong>, com trajet&oacute;ria consolidada em
+          desenvolvimento e sustenta&ccedil;&atilde;o de solu&ccedil;&otilde;es corporativas, integra&ccedil;&atilde;o entre sistemas,
+          automa&ccedil;&atilde;o de testes e colabora&ccedil;&atilde;o pr&oacute;xima a neg&oacute;cio e opera&ccedil;&otilde;es em m&uacute;ltiplas regi&otilde;es.
+          No LinkedIn tamb&eacute;m listo <strong>Web Development</strong> como servi&ccedil;o oferecido.
+        </p>
+        <p>
+          Valorizo aprendizado cont&iacute;nuo (cursos e certifica&ccedil;&otilde;es), compartilhamento de conhecimento com o time
+          e postura de dono em incidentes e entregas cr&iacute;ticas &mdash; alinhado ao que aparece nos meus reconhecimentos p&uacute;blicos no perfil profissional.
+        </p>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section">
+      <div class="inner">
+        <h2>Experi&ecirc;ncia</h2>
+        <p class="section-intro">Resumo baseado no <a href="https://www.linkedin.com/in/jackson-calixto/" target="_blank" rel="noopener noreferrer">LinkedIn</a>. Detalhes internos da GM s&oacute; com aprova&ccedil;&atilde;o de comunica&ccedil;&atilde;o.</p>
+        <ul class="timeline">
+          <li>
+            <span class="time">mar 2013 &mdash; atual</span>
+            <h3>Software Developer</h3>
+            <p class="org">General Motors</p>
+            <p>Desenvolvimento e evolu&ccedil;&atilde;o de sistemas de TI; integra&ccedil;&otilde;es; sustenta&ccedil;&atilde;o de aplica&ccedil;&otilde;es cr&iacute;ticas ao neg&oacute;cio; colabora&ccedil;&atilde;o com times globais.</p>
+          </li>
+          <li>
+            <span class="time">fev 2012 &mdash; mar 2013</span>
+            <h3>System Analyst</h3>
+            <p class="org">Hewlett-Packard</p>
+            <p>An&aacute;lise e suporte em ambiente corporativo de grande porte.</p>
+          </li>
+          <li>
+            <span class="time">jul 2011 &mdash; fev 2012</span>
+            <h3>System Programmer</h3>
+            <p class="org">GATI &mdash; Tecnologia da Informa&ccedil;&atilde;o</p>
+            <p>Programa&ccedil;&atilde;o e sustenta&ccedil;&atilde;o de sistemas.</p>
+          </li>
+          <li>
+            <span class="time">fev 2009 &mdash; fev 2010</span>
+            <h3>System Analyst</h3>
+            <p class="org">Daitech Ind&uacute;stria</p>
+            <p>An&aacute;lise e desenvolvimento de sistemas.</p>
+          </li>
+          <li>
+            <span class="time">mar 2004 &mdash; fev 2009</span>
+            <h3>System Analyst</h3>
+            <p class="org">PainelTec Ind&uacute;stria Eletr&ocirc;nica</p>
+            <p>An&aacute;lise e desenvolvimento de sistemas.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="formacao" class="section section-alt">
+      <div class="inner narrow">
+        <h2>Forma&ccedil;&atilde;o</h2>
+        <ul class="timeline">
+          <li>
+            <span class="time">2021 &mdash; 2026 (previsto)</span>
+            <h3>Bacharelado em Engenharia da Computa&ccedil;&atilde;o</h3>
+            <p class="org">Universidade Anhembi Morumbi</p>
+            <p>Forma&ccedil;&atilde;o em andamento, alinhada &agrave; atua&ccedil;&atilde;o t&eacute;cnica em software.</p>
+          </li>
+          <li>
+            <span class="time">1997 &mdash; 1999</span>
+            <h3>Processamento de dados / forma&ccedil;&atilde;o t&eacute;cnica correlata</h3>
+            <p class="org">Universidade Positivo, Instituto Adventista Paranaense e trilhas complementares</p>
+            <p>Base em desenvolvimento, arquitetura de computadores, banco de dados e engenharia (conforme hist&oacute;rico no LinkedIn).</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- a se&ccedil;&atilde;o de projetos/skills foi movida para cima para ficar no estilo do layout de refer&ecirc;ncia -->
+
+    <section id="certificacoes" class="section section-alt">
+      <div class="inner narrow">
+        <h2>Certifica&ccedil;&otilde;es</h2>
+        <p class="section-intro">Principais certifica&ccedil;&otilde;es listadas no LinkedIn (Udemy, Skillsoft, Rosetta Stone).</p>
+        <ul class="cert-list">
+          <li><strong>Advanced OAuth Security</strong> <span class="cert-issuer">&mdash; Udemy, out/2023</span></li>
+          <li><strong>Automation Framework with Playwright and Java</strong> <span class="cert-issuer">&mdash; Udemy, jul/2023</span></li>
+          <li><strong>FSD Front-End Development: Frameworks</strong> <span class="cert-issuer">&mdash; Skillsoft, jul/2023</span></li>
+          <li><strong>Clean Architecture Essencial &mdash; ASP.NET Core com C#</strong> <span class="cert-issuer">&mdash; Udemy, mar/2023</span></li>
+          <li><strong>Full-Stack com .NET Web API e Angular + EF Core</strong> <span class="cert-issuer">&mdash; Udemy, jan/2023</span></li>
+          <li><strong>Microservices do zero com Spring Cloud, Spring Boot e Docker</strong> <span class="cert-issuer">&mdash; Udemy, jul/2022</span></li>
+          <li><strong>C# curso completo (b&aacute;sico ao avan&ccedil;ado)</strong> <span class="cert-issuer">&mdash; Udemy, mar/2022</span></li>
+          <li><strong>English Pre-Test</strong> <span class="cert-issuer">&mdash; Rosetta Stone, fev/2017</span></li>
+        </ul>
+        <p class="section-intro tight-both"><strong>Idiomas:</strong> portugu&ecirc;s e ingl&ecirc;s (nativo/bil&iacute;ngue); espanhol (profissional).</p>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="inner narrow">
+        <h2>Contato</h2>
+        <p>
+          O jeito mais r&aacute;pido de falar comigo &eacute; pelo
+          <a href="https://www.linkedin.com/in/jackson-calixto/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          ou pela p&aacute;gina do
+          <a href="https://github.com/Jackson-Calixto" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        </p>
+        <p>
+          E-mail: <a id="email" href="mailto:jackson.calixto@gmail.com">jackson.calixto@gmail.com</a>
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://www.linkedin.com/in/jackson-calixto/" target="_blank" rel="noopener noreferrer">Mensagem no LinkedIn</a>
+          <a class="btn btn-ghost" href="https://github.com/Jackson-Calixto" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <p>&copy; <span id="ano"></span> Jackson Calixto. Conte&uacute;do p&uacute;blico &mdash; GM apenas como empregador.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <dialog id="projectModal" class="modal">
+    <form method="dialog" class="modal-card">
+      <button class="modal-close" aria-label="Fechar">×</button>
+      <p class="modal-kicker" id="modalTech"></p>
+      <h3 class="modal-title" id="modalTitle"></h3>
+      <p class="modal-desc" id="modalDesc"></p>
+      <p class="modal-actions">
+        <a class="btn2 btn2-primary" id="modalLink" target="_blank" rel="noopener noreferrer">Abrir no GitHub</a>
+        <button class="btn2 btn2-ghost" value="cancel" type="submit">Fechar</button>
+      </p>
+    </form>
+  </dialog>
+</body>
+</html>

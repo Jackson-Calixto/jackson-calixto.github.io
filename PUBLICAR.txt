@@ -1,0 +1,39 @@
+Como publicar este portfólio
+===========================
+
+1) Testar no PC
+   - Abra a pasta "portfolio" e dê dois cliques em index.html
+   - Ou no PowerShell: cd portfolio ; start index.html
+
+2) GitHub Pages (recomendado — URL curta)
+   Conta: https://github.com/Jackson-Calixto
+
+   - Crie um repositório PÚBLICO com nome EXATO:
+       jackson-calixto.github.io
+     (é o formato username.github.io em minúsculas; o site fica na raiz do domínio.)
+
+   - Envie o CONTEÚDO desta pasta como raiz do repo (index.html na raiz).
+
+   - Coloque o PDF do currículo em:
+       assets/Resume-Jackson-Calixto-2025-02.pdf
+
+   - GitHub → Settings → Pages → Branch main, pasta / (root)
+
+   - URL final:
+       https://jackson-calixto.github.io/
+
+   - Remoto Git exemplo:
+       https://github.com/Jackson-Calixto/jackson-calixto.github.io.git
+
+   - Detalhes e comando git: README.md nesta pasta
+
+3) Netlify (grátis, arrastar pasta)
+   - https://app.netlify.com/drop
+   - Arraste a pasta "portfolio" inteira
+
+Antes de publicar
+-----------------
+- Confirme o e-mail de contato no index.html
+- Ajuste os cards de "Projetos" se quiser
+- Confirme se pode citar projetos da GM; se não, use descrições genéricas
+- Opcional: foto em assets/foto.jpg e referência no CSS
