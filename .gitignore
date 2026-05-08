@@ -2,3 +2,5 @@
 Thumbs.db
 *.log
 lang-flags*.png
+_tmp_commit.bat
+_fixgit.bat
