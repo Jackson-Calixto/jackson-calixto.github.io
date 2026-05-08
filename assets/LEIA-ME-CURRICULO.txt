@@ -8,4 +8,4 @@ O script ajusta o href conforme a bandeira selecionada.
 
 Opcional: copia tambem um PDF unico como Resume-Jackson-Calixto-2025-02.pdf se precisares de URL fixa.
 
-Gerar de novo a partir dos .md: pasta curriculos, comando python build_pdfs.py (ver curriculos/build_pdfs.py).
+Gerar de novo a partir dos .md: pasta curriculos — pip install -r requirements.txt, playwright install chromium, python build_pdfs.py (ver curriculos/build_pdfs.py e resume_print.css).

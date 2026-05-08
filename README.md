@@ -72,7 +72,7 @@ Repositório com outro nome (ex. `portfolio`) → URL seria `https://jackson-cal
 
 ## Currículo (PDF)
 
-O botão **Baixar currículo** / **Download resume** / **Descargar CV** aponta para um destes ficheiros conforme o idioma: `assets/Jackson-Calixto-CV-2026-PT.pdf`, `...-EN.pdf`, `...-ES.pdf`. Gere-os a partir de `../curriculos/` com `python build_pdfs.py` e copie para `assets/`.
+O botão **Baixar currículo** / **Download resume** / **Descargar CV** aponta para um destes ficheiros conforme o idioma: `assets/Jackson-Calixto-CV-2026-PT.pdf`, `...-EN.pdf`, `...-ES.pdf`. Gere-os na pasta `../curriculos/`: `pip install -r requirements.txt`, `playwright install chromium`, depois `python build_pdfs.py` (HTML + CSS de impressão via Playwright; os PDFs são copiados automaticamente para `assets/`).
 
 ## Testar localmente
 
