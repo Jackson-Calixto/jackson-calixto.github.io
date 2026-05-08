@@ -72,7 +72,7 @@ Repositório com outro nome (ex. `portfolio`) → URL seria `https://jackson-cal
 
 ## Currículo (PDF)
 
-O link **Baixar currículo** usa `assets/Resume-Jackson-Calixto-2025-02.pdf`. Copie o PDF para `assets/` com esse nome ou ajuste o `href` em `index.html`.
+O botão **Baixar currículo** / **Download resume** / **Descargar CV** aponta para um destes ficheiros conforme o idioma: `assets/Jackson-Calixto-CV-2026-PT.pdf`, `...-EN.pdf`, `...-ES.pdf`. Gere-os a partir de `../curriculos/` com `python build_pdfs.py` e copie para `assets/`.
 
 ## Testar localmente
 

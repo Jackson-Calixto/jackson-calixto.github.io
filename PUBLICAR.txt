@@ -20,8 +20,8 @@ Como publicar este portfólio
 
    - Envie o CONTEÚDO desta pasta como raiz do repo (index.html na raiz).
 
-   - Coloque o PDF do currículo em:
-       assets/Resume-Jackson-Calixto-2025-02.pdf
+   - PDFs do currículo por idioma em assets/:
+       Jackson-Calixto-CV-2026-PT.pdf, Jackson-Calixto-CV-2026-EN.pdf, Jackson-Calixto-CV-2026-ES.pdf
 
    - GitHub → Settings → Pages → Branch main, pasta / (root)
 

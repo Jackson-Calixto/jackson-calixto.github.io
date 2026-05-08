@@ -1,10 +1,11 @@
-Ficheiro servido pelo botao "Baixar curriculo" no site:
+PDFs por idioma (botao Baixar curriculo / Download resume / Descargar CV):
 
-  Resume-Jackson-Calixto-2025-02.pdf
+  Jackson-Calixto-CV-2026-PT.pdf  (portugues)
+  Jackson-Calixto-CV-2026-EN.pdf  (ingles)
+  Jackson-Calixto-CV-2026-ES.pdf  (espanhol)
 
-Copiado a partir de (na pasta Resume, um nivel acima do portfolio):
+O script ajusta o href conforme a bandeira selecionada.
 
-  Resume-Jackson-Calixto 2025-02.pdf
+Opcional: copia tambem um PDF unico como Resume-Jackson-Calixto-2025-02.pdf se precisares de URL fixa.
 
-Se atualizar o PDF na pasta Resume, copie de novo para este assets/ com o nome acima
-(ou ajuste o href em index.html).
+Gerar de novo a partir dos .md: pasta curriculos, comando python build_pdfs.py (ver curriculos/build_pdfs.py).
