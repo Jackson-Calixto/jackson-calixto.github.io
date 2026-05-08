@@ -8,12 +8,11 @@ Como publicar este portfólio
 2) GitHub Pages (recomendado — URL curta)
    Conta: https://github.com/Jackson-Calixto
 
-   Opção automática (Git + GitHub CLI):
-   - Instale https://cli.github.com/ (gh)
-   - Na pasta portfolio: execute publicar.bat
-   - Se pedir login: gh auth login --hostname github.com --git-protocol https --web
-   - Depois volte a executar publicar.bat
+   Git + GitHub CLI (comandos diretos na pasta portfolio):
+   - gh auth login --hostname github.com --git-protocol https --web
+   - gh repo create jackson-calixto.github.io --public --source=. --remote=origin --push
    - Ative Pages: Settings → branch main, pasta / (root)
+   - Alterações: git add -A && git commit -m "msg" && git push
 
    Opção manual — Crie um repositório PÚBLICO com nome EXATO:
        jackson-calixto.github.io

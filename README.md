@@ -12,16 +12,25 @@ Use o repositório especial **`jackson-calixto.github.io`** (mesmo nome do utili
 
 **https://jackson-calixto.github.io/**
 
-### Opção rápida (neste PC)
+### Primeira vez (GitHub CLI)
 
-1. Instale o [GitHub CLI](https://cli.github.com/) (`gh`) se ainda não tiver.
-2. Na pasta deste projeto, execute **`publicar.bat`** (dois cliques ou no CMD).
-3. Se pedir login, no terminal execute uma vez:  
-   `gh auth login --hostname github.com --git-protocol https --web`  
-   e volte a correr **`publicar.bat`**.
-4. No GitHub: **Settings → Pages** → branch **`main`**, pasta **`/ (root)`**.
+Na pasta `portfolio` (CMD ou PowerShell):
 
-### Opção manual (criar repo no site)
+```bat
+gh auth login --hostname github.com --git-protocol https --web
+gh repo create jackson-calixto.github.io --public --source=. --remote=origin --push
+```
+
+Se o repositório **já existir** e estiver vazio:
+
+```bat
+git remote add origin https://github.com/Jackson-Calixto/jackson-calixto.github.io.git
+git push -u origin main
+```
+
+No GitHub: **Settings → Pages** → branch **`main`**, pasta **`/ (root)`**.
+
+### Criar repo só no site (sem `gh`)
 
 1. No GitHub: **New repository**
    - **Owner:** Jackson-Calixto  
@@ -43,6 +52,16 @@ git commit -m "Add portfolio for GitHub Pages"
 git branch -M main
 git remote add origin https://github.com/Jackson-Calixto/jackson-calixto.github.io.git
 git push -u origin main
+```
+
+Alterações depois do primeiro envio:
+
+```powershell
+cd portfolio
+git add -A
+git status
+git commit -m "Descreva a alteracao"
+git push
 ```
 
 (Se o remoto já existir com outro nome, use `git remote set-url origin ...`.)
