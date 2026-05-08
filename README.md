@@ -12,6 +12,17 @@ Use o repositório especial **`jackson-calixto.github.io`** (mesmo nome do utili
 
 **https://jackson-calixto.github.io/**
 
+### Opção rápida (neste PC)
+
+1. Instale o [GitHub CLI](https://cli.github.com/) (`gh`) se ainda não tiver.
+2. Na pasta deste projeto, execute **`publicar.bat`** (dois cliques ou no CMD).
+3. Se pedir login, no terminal execute uma vez:  
+   `gh auth login --hostname github.com --git-protocol https --web`  
+   e volte a correr **`publicar.bat`**.
+4. No GitHub: **Settings → Pages** → branch **`main`**, pasta **`/ (root)`**.
+
+### Opção manual (criar repo no site)
+
 1. No GitHub: **New repository**
    - **Owner:** Jackson-Calixto  
    - **Repository name:** `jackson-calixto.github.io` (tem de ser exatamente assim)  
